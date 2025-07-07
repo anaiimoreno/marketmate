@@ -1,0 +1,129 @@
+/* === Overall Page Container === */
+.inventory-container {
+    background-color: #f4b7d4;
+    min-height: 100vh;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* === Category Section === */
+  .category-section {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+  
+  /* === Category Card (button + add button) === */
+  .category-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* === Category Button === */
+  .category-btn {
+    font-weight: bold;
+    padding: 1rem 2.5rem;
+    border-radius: 12px;
+    border: none;
+    background-color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .category-btn.active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* === "+" Add Button === */
+  .add-btn {
+    margin-top: 0.7rem;
+    background: #e0e0e0;
+    border: none;
+    padding: 0.4rem 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  /* === Display Section === */
+  .display-section {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  /* === Now Showing Title === */
+  .display-section h2 {
+    font-size: 1.6rem;
+    letter-spacing: 4px;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  /* === Empty Text Message === */
+  .empty-text {
+    font-size: 1.4rem;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #111;
+    font-weight: 300;
+  }
+  
+  /* === Item Cards Container === */
+.item-cards-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  /* === Individual Item Card === */
+  .item-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .item-id {
+    font-size: 1rem;
+    font-weight: bold;
+    background: #f0f0f0;
+    padding: 0.4rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .image-preview {
+    width: 100%;
+    height: 150px;
+    background: #ccc;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+  }
+  
+  .image-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* === Edit Button === */
+  .edit-btn {
+    margin-top: 1rem;
+    background: #e0e0e0;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

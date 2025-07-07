@@ -1,0 +1,73 @@
+.customer-container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f4a8c2;
+    flex-wrap: wrap;
+  }
+  
+  /* Left side panel with image background */
+  .illustration-panel {
+    flex: 1;
+    min-height: 500px;
+    background-image: url('/images/shopping.jpg'); /* adjust path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+  }
+  
+  /* Right side content */
+  .customer-content {
+    flex: 1;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .customer-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .customer-welcome {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .customer-section {
+    text-align: center;
+  }
+  
+  .customer-section button {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 0.8rem 1.6rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .customer-section button:hover {
+    background-color: #fdfdfd;
+  }
+  
+  /* Responsive stack */
+  @media (max-width: 768px) {
+    .customer-container {
+      flex-direction: column;
+    }
+  
+    .illustration-panel {
+      min-height: 300px;
+    }
+  }
+  

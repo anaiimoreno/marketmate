@@ -1,0 +1,30 @@
+/* src/styles/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f7f4f1;
+    border-bottom: 1px solid #e2e2e2;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-links a {
+    margin-right: 1.5rem;
+    font-size: 0.9rem;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar-brand {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #4f46e5; /* Indigo */
+  }
+  
